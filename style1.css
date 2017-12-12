@@ -1,4 +1,75 @@
+/*add new font*/
+@font-face {
+    font-family: News_Cycle;
+    src: url('/fonts/news_cycle.ttf') format('truetype');
+}
+
 body {
-	background-color: black;
+    font-family: Libre Franklin, Ubuntu, News_Cycle;
+	
+	background: url("./images/Code.jpg") center fixed;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: white;
+}
+
+
+h1 {
+	/*color: #999999;*/
+    /*background-color: green;*/
+    text-align: center;
+	font-size: 2em;
+	/* font-weight: bold; */
+
+    /* border-bottom: thin solid; */
+    /* border-color: lightgray; */
+    padding-top: 1em;
+	padding-bottom: 1em;
+	display: inline;
+    margin: 10px;
+	font-size: 4.5em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+	
+
+    /* background-color: lightblue; */
+}
+
+/*control sections, add border and spacing*/
+.ControlSection {
+    margin-top: 50px;
+    padding-top: 60px;
+	padding-bottom: 40px;
+	padding-left: 60px;
+    background-color: rgba(0,0,0,0.94);
+    color: white;
+	font-size: 1.4em;
+	border-style: solid;
+    border-width: 1px;
+	border-color: gray;
+    /* fill-opacity: .25; */
+
+}
+
+.center {
+    margin: auto;
+    width: 75%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+
+
+#header1 {
+    padding: 40px;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.94);
+	color: white;
+	border-style: solid;
+    border-width: 1px;
+	border-color: gray;
+	text-align: center;
 }
