@@ -9,8 +9,16 @@
 <br>
 <br>
 
-<main>
-	<div class="ControlSection well">
+<main class="container">
+
+
+<div class="row" >
+
+
+	<!-- <div class="col-md-4"></div> -->
+	
+
+	<div class="BlackPanel well offset-md-2 col-md-8" >
 		<h4>My Web Applications</h4>
 		<ul >
 			<li><a href="http://www.cryptoalert.armandotoledo.com/"</a><strong>Crypto Alert</strong></li>
@@ -20,9 +28,10 @@
 			<li><a href="http://www.armandotoledo.com/"</a><strong>My Home Site</strong></li>
 		</ul>
 	</div>
+</div>
 </main>
 
-<?php //require("footer.php"); ?>
+<?php require('footer.php'); ?>
 
 </html>
 
