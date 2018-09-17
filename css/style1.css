@@ -7,13 +7,13 @@
 body {
     font-family: Libre Franklin, Ubuntu, News_Cycle;
 	
-	background: url("../images/Code.jpg") center fixed;
+	background: url("../images/business-wallpaper.jpg") center fixed;
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	color: white;
+	/* color: white; */
 }
 
 
@@ -38,15 +38,16 @@ h1 {
 /*control sections, add border and spacing*/
 .BlackPanel {
     margin-top: 50px;
-    padding-top: 60px;
-	padding-bottom: 40px;
-	padding-left: 60px;
+    padding-top: 30px;
+	padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgba(0,0,0,0.94);
     color: white;
 	font-size: 1.4em;
 	border-style: solid;
     border-width: 1px;
-	border-color: gray;
+	border-color: white;
     /* fill-opacity: .25; */
 
 }
@@ -67,6 +68,86 @@ h1 {
 	color: white;
 	border-style: solid;
     border-width: 1px;
-	border-color: gray;
-	text-align: center;
+	border-color: white;
+	/* text-align: center; */
 }
+
+.toledo-icon {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.toledo-icon:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+a {
+    color: lightskyblue;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+
+
+
+/* DARK TABLE CSS */
+table.darkTable {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: 2px solid #000000;
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.darkTable td, table.darkTable th {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+  }
+  table.darkTable tbody td {
+    font-size: 13px;
+    color: #E6E6E6;
+  }
+  table.darkTable tr:nth-child(even) {
+    background: #888888;
+  }
+  table.darkTable thead {
+    background: #000000;
+    border-bottom: 3px solid #000000;
+  }
+  table.darkTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border-left: 2px solid #4A4A4A;
+  }
+  table.darkTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.darkTable tfoot {
+    font-size: 12px;
+    font-weight: bold;
+    color: #E6E6E6;
+    background: #000000;
+    background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+    border-top: 1px solid #4A4A4A;
+  }
+  table.darkTable tfoot td {
+    font-size: 12px;
+  }
